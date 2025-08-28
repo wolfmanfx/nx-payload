@@ -1,0 +1,30 @@
+{
+  "name": "nx-payload-detector",
+  "version": "1.0.0",
+  "description": "Detect and remove malicious NX package payload artifacts",
+  "main": "detect-nx-payload.js",
+  "bin": {
+    "nx-payload-detector": "./detect-nx-payload.js"
+  },
+  "scripts": {
+    "start": "node detect-nx-payload.js",
+    "detect": "node detect-nx-payload.js",
+    "clean": "node detect-nx-payload.js --remove"
+  },
+  "keywords": [
+    "security",
+    "malware",
+    "nx",
+    "detection",
+    "npm",
+    "payload"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
